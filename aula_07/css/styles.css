@@ -1,0 +1,80 @@
+body{
+    font-family: 'Lato', sans-serif; ;
+    background-image: -moz-linear-gradient(#dedede, #ffff);
+    height: 1020px;
+}
+/* conceitos de Width, Height, Margin, Padding, Border e Box-sizing */
+h1{
+    background-color: aquamarine;
+    width: 400px;
+    height: 200px;
+    margin: 70px 70px;
+    padding: 50px;
+    border: dotted 5px orangered;
+    box-sizing: border-box;
+}
+
+/* POSICIONAMENTO RELATIVO */
+
+.caixa01{
+    font-size: 20px ;
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    margin: 70px 20px;
+    display: inline;
+}
+
+.caixa02{
+    position: relative;
+    right: 50px;
+    top: 10px;
+    font-size: 20px ;
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    margin: 70px 20px;
+    display: inline;
+}
+
+/* Posicionamento absoluto */
+.caixa03{
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+    font-size: 20px ;
+    background-color: rgb(121, 231, 71);
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    margin: 70px 20px;
+    display: inline;
+}
+
+/* Posicionamento fixo e Z-index*/
+.caixa04{
+    position: fixed;
+    left: 500px;
+    top: 10px;
+    font-size: 20px ;
+    background-color: rgb(240, 255, 31);
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    margin: 70px 20px;
+    display: inline;
+    z-index: 2;
+}
+
+/* Posicionamento Sticky e Z Index*/
+.caixa05{
+    position: sticky;
+    top: 5px;
+    font-size: 20px ;
+    background-color: rgb(24, 162, 226);
+    display: inline-block;
+    z-index: 1;
+}
+
